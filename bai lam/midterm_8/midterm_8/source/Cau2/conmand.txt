@@ -1,0 +1,15 @@
+python pacman.py smallMaze.lay ucs None
+python pacman.py mediumMaze.lay ucs None
+python pacman.py bigMaze.lay ucs None
+
+python pacman.py smallMaze.lay astar manhattaDistance
+python pacman.py smallMaze.lay astar euclideanDistance
+python pacman.py smallMaze.lay astar None
+
+python pacman.py mediumMaze.lay astar manhattaDistance
+python pacman.py mediumMaze.lay astar euclideanDistance
+python pacman.py mediumMaze.lay astar None
+
+python pacman.py bigMaze.lay astar manhattaDistance
+python pacman.py bigMaze.lay astar euclideanDistance
+python pacman.py bigMaze.lay astar None
